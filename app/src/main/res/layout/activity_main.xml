@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+   >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="正"
+         />
+
+    <com.ljl2014.widget.PriceEditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:weightNum="nthree"
+        app:strformat=" "
+        app:maxInteger="9"
+        app:decimalPlace="2"
+        android:hint="保留两位小数"
+        />
+    <com.ljl2014.widget.PriceEditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:weightNum="nfourth"
+        app:strformat=" "
+        app:maxInteger="9"
+        app:decimalPlace="3"
+        android:hint="保留三位小数"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="反"
+        />
+    <com.ljl2014.widget.PriceEditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:weightNum="nfourth"
+        app:strformat=" "
+        app:maxInteger="9"
+        app:decimalPlace="2"
+        android:hint="保留两位小数"
+        />
+
+</LinearLayout>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="PriceEdit">
+        <!-- 几位一组，0不分组，最大到5位一组 -->
+        <attr name="weightNum">
+            <enum name="nzero" value="0"></enum>
+            <enum name="ntwo" value="2"></enum>
+            <enum name="nthree" value="3"></enum>
+            <enum name="nfourth" value="4"></enum>
+            <enum name="nfive" value="5"></enum>
+        </attr>
+        <!-- 同上，可进行设置   这个暂时没用上， 在xml中建议上面那个属性-->
+        <attr name="groutNum" format="integer"></attr>
+        <!-- 分组字符 个位数有效-->
+        <attr name="strformat" format="string"></attr>
+        <!-- 最大整数位 -->
+        <attr name="maxInteger" format="integer"></attr>
+        <!-- 小数点后面多少位 -->
+        <attr name="decimalPlace" format="integer"></attr>
+    </declare-styleable>
+
+</resources>
